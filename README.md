@@ -14,7 +14,7 @@ The WVS engine is original developed from scratch within the Celtic-plus project
 
 [EASE (Embedded Applications Software Engineering)](http://ease.cs.lth.se/)
 
-The original WVS engine was further developed with the EASE project. The aim is to support mobile-based deep learning by offloading the part of complicated computing from the mobile side to the server side.
+The original WVS engine was further developed within the EASE project. The aim is to support the lightweight mobile to efficiently conduct the deep learning by offloading the part of complicated computing to the server.
 
 ## WebClient
 The web-client is developed from scratch by using php language. It is used to connect with the ServerCore, and thus real-time streaming the video/image transmitted from the ServerCore side.
