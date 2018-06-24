@@ -1,0 +1,81 @@
+// !$*UTF8*$!
+{
+	EC6087D01619B98D0091B0F9 /* SW */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = SW;
+		sourceDirectories = (
+		);
+	};
+	EC6087D71619B9910091B0F9 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	EC6087D81619B9910091B0F9 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	ECAE115E161075CA00BB491D /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = EC6087D01619B98D0091B0F9 /* SW */;
+		activeTarget = ECAE1166161075CA00BB491D /* SW */;
+		codeSenseManager = EC6087D81619B9910091B0F9 /* Code sense */;
+		executables = (
+			EC6087D01619B98D0091B0F9 /* SW */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					364,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 370784653;
+			PBXWorkspaceStateSaveDate = 370784653;
+		};
+		sourceControlManager = EC6087D71619B9910091B0F9 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	ECAE1166161075CA00BB491D /* SW */ = {
+		activeExec = 0;
+		executables = (
+			EC6087D01619B98D0091B0F9 /* SW */,
+		);
+	};
+}

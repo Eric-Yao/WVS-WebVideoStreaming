@@ -1,0 +1,143 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXFileReference section */
+		ECDFD4221A1C01DD00BDBDB1 /* engine */ = {isa = PBXFileReference; lastKnownFileType = folder; name = engine; path = ../../engine; sourceTree = "<group>"; };
+		ECDFD4231A1C01EB00BDBDB1 /* script */ = {isa = PBXFileReference; lastKnownFileType = folder; name = script; path = ../../script; sourceTree = "<group>"; };
+		ECDFD4241A1C01F300BDBDB1 /* main */ = {isa = PBXFileReference; lastKnownFileType = folder; name = main; path = ../../main; sourceTree = "<group>"; };
+		ECDFD4251A1C01FA00BDBDB1 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; name = Makefile; path = ../../Makefile; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		ECAE115C161075CA00BB491D = {
+			isa = PBXGroup;
+			children = (
+				ECDFD4251A1C01FA00BDBDB1 /* Makefile */,
+				ECDFD4241A1C01F300BDBDB1 /* main */,
+				ECDFD4231A1C01EB00BDBDB1 /* script */,
+				ECDFD4221A1C01DD00BDBDB1 /* engine */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		ECAE115E161075CA00BB491D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Blekinge Tekniska Högskola (BTH)";
+			};
+			buildConfigurationList = ECAE1161161075CA00BB491D /* Build configuration list for PBXProject "box_mac_cmd" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ECAE115C161075CA00BB491D;
+			productRefGroup = ECAE115C161075CA00BB491D;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		ECAE116E161075CA00BB491D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/yongyao/3D_engine/OpenGl_Iphone/ode-0.11.1/include",
+					/Users/yongyao/comm_engine/v1/plat,
+					/Users/yongyao/comm_engine/v1/core,
+					/Users/yongyao/comm_engine/v1/inc_mac,
+					/Users/yongyao/3D_engine/MyGames/boxJourney/v1/engine,
+					/Users/yongyao/3D_engine/MyGames/boxJourney/v1/engine/render,
+					/Users/yongyao/3D_engine/MyGames/boxJourney/v1/engine/scene,
+					/Users/yongyao/3D_engine/MyGames/boxJourney/v1/engine/game,
+					/Users/yongyao/3D_engine/MyGames/boxJourney/v1/engine/physics,
+					/Users/yongyao/3D_engine/MyGames/boxJourney/v1/engine/APIs,
+					/Users/yongyao/3D_engine/MyGames/box/v1/engine/interaction,
+					/Users/yongyao/3D_engine/MyGames/box/v1/engine/font,
+				);
+				LIBRARY_SEARCH_PATHS = "/Users/yongyao/3D_engine/OpenGl_Iphone/ode-0.11.1/lib";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OBJROOT = /Users/yongyao/3D_engine/MyGames/boxJourney/v1/Apple/Mac;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-lode",
+					"-lpng",
+				);
+				SDKROOT = macosx;
+				SYMROOT = /Users/yongyao/3D_engine/MyGames/boxJourney/v1/Apple/Mac;
+			};
+			name = Debug;
+		};
+		ECAE116F161075CA00BB491D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/yongyao/3D_engine/OpenGl_Iphone/ode-0.11.1/include",
+					/Users/yongyao/comm_engine/v1/plat,
+					/Users/yongyao/comm_engine/v1/core,
+					/Users/yongyao/comm_engine/v1/inc_mac,
+					/Users/yongyao/3D_engine/MyGames/boxJourney/v1/engine,
+					/Users/yongyao/3D_engine/MyGames/boxJourney/v1/engine/render,
+					/Users/yongyao/3D_engine/MyGames/boxJourney/v1/engine/scene,
+					/Users/yongyao/3D_engine/MyGames/boxJourney/v1/engine/game,
+					/Users/yongyao/3D_engine/MyGames/boxJourney/v1/engine/physics,
+					/Users/yongyao/3D_engine/MyGames/boxJourney/v1/engine/APIs,
+					/Users/yongyao/3D_engine/MyGames/box/v1/engine/interaction,
+					/Users/yongyao/3D_engine/MyGames/box/v1/engine/font,
+				);
+				LIBRARY_SEARCH_PATHS = "/Users/yongyao/3D_engine/OpenGl_Iphone/ode-0.11.1/lib";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OBJROOT = /Users/yongyao/3D_engine/MyGames/boxJourney/v1/Apple/Mac;
+				OTHER_LDFLAGS = (
+					"-lode",
+					"-lpng",
+				);
+				SDKROOT = macosx;
+				SYMROOT = /Users/yongyao/3D_engine/MyGames/boxJourney/v1/Apple/Mac;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECAE1161161075CA00BB491D /* Build configuration list for PBXProject "box_mac_cmd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECAE116E161075CA00BB491D /* Debug */,
+				ECAE116F161075CA00BB491D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECAE115E161075CA00BB491D /* Project object */;
+}

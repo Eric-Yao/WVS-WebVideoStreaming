@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECCC22AE1A2CE48D00B4BABB /* CloudGaming.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ECCC22AD1A2CE48D00B4BABB /* CloudGaming.1 */; };
+		ECCC22C11A2CE51700B4BABB /* apis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECCC22BF1A2CE51700B4BABB /* apis.cpp */; };
+		ECCC22C61A2CE52200B4BABB /* draw_apis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECCC22C21A2CE52200B4BABB /* draw_apis.cpp */; };
+		ECCC22C71A2CE52200B4BABB /* draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECCC22C41A2CE52200B4BABB /* draw.cpp */; };
+		ECCC22CC1A2CE52F00B4BABB /* animat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECCC22C81A2CE52F00B4BABB /* animat.cpp */; };
+		ECCC22CD1A2CE52F00B4BABB /* pbuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECCC22CA1A2CE52F00B4BABB /* pbuffer.cpp */; };
+		ECCC22D71A2CE54800B4BABB /* file.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECCC22CF1A2CE54800B4BABB /* file.cpp */; };
+		ECCC22D81A2CE54800B4BABB /* jpegwrite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECCC22D11A2CE54800B4BABB /* jpegwrite.cpp */; };
+		ECCC22D91A2CE54800B4BABB /* mp4write.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECCC22D31A2CE54800B4BABB /* mp4write.cpp */; };
+		ECCC22DA1A2CE54800B4BABB /* plat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECCC22D51A2CE54800B4BABB /* plat.cpp */; };
+		ECCC22DD1A2CE55100B4BABB /* record.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECCC22DB1A2CE55100B4BABB /* record.cpp */; };
+		ECCC22EA1A2CE55C00B4BABB /* dd_listen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECCC22DE1A2CE55C00B4BABB /* dd_listen.cpp */; };
+		ECCC22EC1A2CE55C00B4BABB /* tcp_media.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECCC22E21A2CE55C00B4BABB /* tcp_media.cpp */; };
+		ECCC22ED1A2CE55C00B4BABB /* tcp_operations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECCC22E41A2CE55C00B4BABB /* tcp_operations.cpp */; };
+		ECCC22EE1A2CE55C00B4BABB /* tcp_server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECCC22E61A2CE55C00B4BABB /* tcp_server.cpp */; };
+		ECCC22EF1A2CE55C00B4BABB /* tcp_streaming.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECCC22E81A2CE55C00B4BABB /* tcp_streaming.cpp */; };
+		ECCC22F41A2CE57000B4BABB /* BmpImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECCC22F01A2CE57000B4BABB /* BmpImage.cpp */; };
+		ECCC22F51A2CE57000B4BABB /* PrecisionTimer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECCC22F21A2CE57000B4BABB /* PrecisionTimer.cpp */; };
+		ECCC22F91A2DCA5900B4BABB /* statistics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECCC22F71A2DCA5900B4BABB /* statistics.cpp */; };
+		EE310C1C1DA5000F002D828A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE310C1B1DA5000F002D828A /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ECCC22A61A2CE48D00B4BABB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				ECCC22AE1A2CE48D00B4BABB /* CloudGaming.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		ECCC22A81A2CE48D00B4BABB /* CloudGaming */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CloudGaming; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECCC22AD1A2CE48D00B4BABB /* CloudGaming.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CloudGaming.1; sourceTree = "<group>"; };
+		ECCC22BF1A2CE51700B4BABB /* apis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = apis.cpp; path = ../../engine/apis/apis.cpp; sourceTree = "<group>"; };
+		ECCC22C01A2CE51700B4BABB /* apis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = apis.h; path = ../../engine/apis/apis.h; sourceTree = "<group>"; };
+		ECCC22C21A2CE52200B4BABB /* draw_apis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = draw_apis.cpp; path = ../../engine/gl_window/draw_apis.cpp; sourceTree = "<group>"; };
+		ECCC22C31A2CE52200B4BABB /* draw_apis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = draw_apis.h; path = ../../engine/gl_window/draw_apis.h; sourceTree = "<group>"; };
+		ECCC22C41A2CE52200B4BABB /* draw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = draw.cpp; path = ../../engine/gl_window/draw.cpp; sourceTree = "<group>"; };
+		ECCC22C51A2CE52200B4BABB /* draw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = draw.h; path = ../../engine/gl_window/draw.h; sourceTree = "<group>"; };
+		ECCC22C81A2CE52F00B4BABB /* animat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = animat.cpp; path = ../../engine/glx_offscreen/animat.cpp; sourceTree = "<group>"; };
+		ECCC22C91A2CE52F00B4BABB /* animat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = animat.h; path = ../../engine/glx_offscreen/animat.h; sourceTree = "<group>"; };
+		ECCC22CA1A2CE52F00B4BABB /* pbuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pbuffer.cpp; path = ../../engine/glx_offscreen/pbuffer.cpp; sourceTree = "<group>"; };
+		ECCC22CB1A2CE52F00B4BABB /* pbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pbuffer.h; path = ../../engine/glx_offscreen/pbuffer.h; sourceTree = "<group>"; };
+		ECCC22CE1A2CE53A00B4BABB /* include.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = include.h; path = ../../engine/include/mac/include.h; sourceTree = "<group>"; };
+		ECCC22CF1A2CE54800B4BABB /* file.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = file.cpp; path = ../../engine/plat/file.cpp; sourceTree = "<group>"; };
+		ECCC22D01A2CE54800B4BABB /* file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = file.h; path = ../../engine/plat/file.h; sourceTree = "<group>"; };
+		ECCC22D11A2CE54800B4BABB /* jpegwrite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = jpegwrite.cpp; path = ../../engine/plat/jpegwrite.cpp; sourceTree = "<group>"; };
+		ECCC22D21A2CE54800B4BABB /* jpegwrite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jpegwrite.h; path = ../../engine/plat/jpegwrite.h; sourceTree = "<group>"; };
+		ECCC22D31A2CE54800B4BABB /* mp4write.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mp4write.cpp; path = ../../engine/plat/mp4write.cpp; sourceTree = "<group>"; };
+		ECCC22D41A2CE54800B4BABB /* mp4write.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mp4write.h; path = ../../engine/plat/mp4write.h; sourceTree = "<group>"; };
+		ECCC22D51A2CE54800B4BABB /* plat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = plat.cpp; path = ../../engine/plat/plat.cpp; sourceTree = "<group>"; };
+		ECCC22D61A2CE54800B4BABB /* plat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = plat.h; path = ../../engine/plat/plat.h; sourceTree = "<group>"; };
+		ECCC22DB1A2CE55100B4BABB /* record.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = record.cpp; path = ../../engine/record/record.cpp; sourceTree = "<group>"; };
+		ECCC22DC1A2CE55100B4BABB /* record.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = record.h; path = ../../engine/record/record.h; sourceTree = "<group>"; };
+		ECCC22DE1A2CE55C00B4BABB /* dd_listen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = dd_listen.cpp; path = ../../engine/tcp/dd_listen.cpp; sourceTree = "<group>"; };
+		ECCC22DF1A2CE55C00B4BABB /* dd_listen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dd_listen.h; path = ../../engine/tcp/dd_listen.h; sourceTree = "<group>"; };
+		ECCC22E21A2CE55C00B4BABB /* tcp_media.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tcp_media.cpp; path = ../../engine/tcp/tcp_media.cpp; sourceTree = "<group>"; };
+		ECCC22E31A2CE55C00B4BABB /* tcp_media.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tcp_media.h; path = ../../engine/tcp/tcp_media.h; sourceTree = "<group>"; };
+		ECCC22E41A2CE55C00B4BABB /* tcp_operations.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tcp_operations.cpp; path = ../../engine/tcp/tcp_operations.cpp; sourceTree = "<group>"; };
+		ECCC22E51A2CE55C00B4BABB /* tcp_operations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tcp_operations.h; path = ../../engine/tcp/tcp_operations.h; sourceTree = "<group>"; };
+		ECCC22E61A2CE55C00B4BABB /* tcp_server.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tcp_server.cpp; path = ../../engine/tcp/tcp_server.cpp; sourceTree = "<group>"; };
+		ECCC22E71A2CE55C00B4BABB /* tcp_server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tcp_server.h; path = ../../engine/tcp/tcp_server.h; sourceTree = "<group>"; };
+		ECCC22E81A2CE55C00B4BABB /* tcp_streaming.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tcp_streaming.cpp; path = ../../engine/tcp/tcp_streaming.cpp; sourceTree = "<group>"; };
+		ECCC22E91A2CE55C00B4BABB /* tcp_streaming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tcp_streaming.h; path = ../../engine/tcp/tcp_streaming.h; sourceTree = "<group>"; };
+		ECCC22F01A2CE57000B4BABB /* BmpImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BmpImage.cpp; path = ../../engine/texture/BmpImage.cpp; sourceTree = "<group>"; };
+		ECCC22F11A2CE57000B4BABB /* BmpImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BmpImage.h; path = ../../engine/texture/BmpImage.h; sourceTree = "<group>"; };
+		ECCC22F21A2CE57000B4BABB /* PrecisionTimer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PrecisionTimer.cpp; path = ../../engine/texture/PrecisionTimer.cpp; sourceTree = "<group>"; };
+		ECCC22F31A2CE57000B4BABB /* PrecisionTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrecisionTimer.h; path = ../../engine/texture/PrecisionTimer.h; sourceTree = "<group>"; };
+		ECCC22F71A2DCA5900B4BABB /* statistics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = statistics.cpp; path = ../../engine/statistics/statistics.cpp; sourceTree = "<group>"; };
+		ECCC22F81A2DCA5900B4BABB /* statistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = statistics.h; path = ../../engine/statistics/statistics.h; sourceTree = "<group>"; };
+		EE310C1B1DA5000F002D828A /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../../main/main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECCC22A51A2CE48D00B4BABB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECCC229F1A2CE48D00B4BABB = {
+			isa = PBXGroup;
+			children = (
+				ECCC22B41A2CE4B100B4BABB /* Engine */,
+				ECCC22AA1A2CE48D00B4BABB /* CloudGaming */,
+				ECCC22A91A2CE48D00B4BABB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECCC22A91A2CE48D00B4BABB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECCC22A81A2CE48D00B4BABB /* CloudGaming */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECCC22AA1A2CE48D00B4BABB /* CloudGaming */ = {
+			isa = PBXGroup;
+			children = (
+				EE310C1B1DA5000F002D828A /* main.cpp */,
+				ECCC22AD1A2CE48D00B4BABB /* CloudGaming.1 */,
+			);
+			path = CloudGaming;
+			sourceTree = "<group>";
+		};
+		ECCC22B41A2CE4B100B4BABB /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				ECCC22BE1A2CE4D500B4BABB /* apis */,
+				ECCC22BD1A2CE4D300B4BABB /* gl_window */,
+				ECCC22BC1A2CE4D100B4BABB /* glx_offscreen */,
+				ECCC22BB1A2CE4C700B4BABB /* include */,
+				ECCC22BA1A2CE4C500B4BABB /* plat */,
+				ECCC22B91A2CE4C200B4BABB /* record */,
+				ECCC22B81A2CE4BF00B4BABB /* statistics */,
+				ECCC22B71A2CE4BD00B4BABB /* tcp */,
+				ECCC22B61A2CE4BB00B4BABB /* texture */,
+			);
+			name = Engine;
+			sourceTree = "<group>";
+		};
+		ECCC22B61A2CE4BB00B4BABB /* texture */ = {
+			isa = PBXGroup;
+			children = (
+				ECCC22F01A2CE57000B4BABB /* BmpImage.cpp */,
+				ECCC22F11A2CE57000B4BABB /* BmpImage.h */,
+				ECCC22F21A2CE57000B4BABB /* PrecisionTimer.cpp */,
+				ECCC22F31A2CE57000B4BABB /* PrecisionTimer.h */,
+			);
+			name = texture;
+			sourceTree = "<group>";
+		};
+		ECCC22B71A2CE4BD00B4BABB /* tcp */ = {
+			isa = PBXGroup;
+			children = (
+				ECCC22DE1A2CE55C00B4BABB /* dd_listen.cpp */,
+				ECCC22DF1A2CE55C00B4BABB /* dd_listen.h */,
+				ECCC22E21A2CE55C00B4BABB /* tcp_media.cpp */,
+				ECCC22E31A2CE55C00B4BABB /* tcp_media.h */,
+				ECCC22E41A2CE55C00B4BABB /* tcp_operations.cpp */,
+				ECCC22E51A2CE55C00B4BABB /* tcp_operations.h */,
+				ECCC22E61A2CE55C00B4BABB /* tcp_server.cpp */,
+				ECCC22E71A2CE55C00B4BABB /* tcp_server.h */,
+				ECCC22E81A2CE55C00B4BABB /* tcp_streaming.cpp */,
+				ECCC22E91A2CE55C00B4BABB /* tcp_streaming.h */,
+			);
+			name = tcp;
+			sourceTree = "<group>";
+		};
+		ECCC22B81A2CE4BF00B4BABB /* statistics */ = {
+			isa = PBXGroup;
+			children = (
+				ECCC22F71A2DCA5900B4BABB /* statistics.cpp */,
+				ECCC22F81A2DCA5900B4BABB /* statistics.h */,
+			);
+			name = statistics;
+			sourceTree = "<group>";
+		};
+		ECCC22B91A2CE4C200B4BABB /* record */ = {
+			isa = PBXGroup;
+			children = (
+				ECCC22DB1A2CE55100B4BABB /* record.cpp */,
+				ECCC22DC1A2CE55100B4BABB /* record.h */,
+			);
+			name = record;
+			sourceTree = "<group>";
+		};
+		ECCC22BA1A2CE4C500B4BABB /* plat */ = {
+			isa = PBXGroup;
+			children = (
+				ECCC22CF1A2CE54800B4BABB /* file.cpp */,
+				ECCC22D01A2CE54800B4BABB /* file.h */,
+				ECCC22D11A2CE54800B4BABB /* jpegwrite.cpp */,
+				ECCC22D21A2CE54800B4BABB /* jpegwrite.h */,
+				ECCC22D31A2CE54800B4BABB /* mp4write.cpp */,
+				ECCC22D41A2CE54800B4BABB /* mp4write.h */,
+				ECCC22D51A2CE54800B4BABB /* plat.cpp */,
+				ECCC22D61A2CE54800B4BABB /* plat.h */,
+			);
+			name = plat;
+			sourceTree = "<group>";
+		};
+		ECCC22BB1A2CE4C700B4BABB /* include */ = {
+			isa = PBXGroup;
+			children = (
+				ECCC22CE1A2CE53A00B4BABB /* include.h */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		ECCC22BC1A2CE4D100B4BABB /* glx_offscreen */ = {
+			isa = PBXGroup;
+			children = (
+				ECCC22C81A2CE52F00B4BABB /* animat.cpp */,
+				ECCC22C91A2CE52F00B4BABB /* animat.h */,
+				ECCC22CA1A2CE52F00B4BABB /* pbuffer.cpp */,
+				ECCC22CB1A2CE52F00B4BABB /* pbuffer.h */,
+			);
+			name = glx_offscreen;
+			sourceTree = "<group>";
+		};
+		ECCC22BD1A2CE4D300B4BABB /* gl_window */ = {
+			isa = PBXGroup;
+			children = (
+				ECCC22C21A2CE52200B4BABB /* draw_apis.cpp */,
+				ECCC22C31A2CE52200B4BABB /* draw_apis.h */,
+				ECCC22C41A2CE52200B4BABB /* draw.cpp */,
+				ECCC22C51A2CE52200B4BABB /* draw.h */,
+			);
+			name = gl_window;
+			sourceTree = "<group>";
+		};
+		ECCC22BE1A2CE4D500B4BABB /* apis */ = {
+			isa = PBXGroup;
+			children = (
+				ECCC22BF1A2CE51700B4BABB /* apis.cpp */,
+				ECCC22C01A2CE51700B4BABB /* apis.h */,
+			);
+			name = apis;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECCC22A71A2CE48D00B4BABB /* CloudGaming */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECCC22B11A2CE48D00B4BABB /* Build configuration list for PBXNativeTarget "CloudGaming" */;
+			buildPhases = (
+				ECCC22A41A2CE48D00B4BABB /* Sources */,
+				ECCC22A51A2CE48D00B4BABB /* Frameworks */,
+				ECCC22A61A2CE48D00B4BABB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudGaming;
+			productName = CloudGaming;
+			productReference = ECCC22A81A2CE48D00B4BABB /* CloudGaming */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECCC22A01A2CE48D00B4BABB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = yong;
+			};
+			buildConfigurationList = ECCC22A31A2CE48D00B4BABB /* Build configuration list for PBXProject "CloudGaming" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ECCC229F1A2CE48D00B4BABB;
+			productRefGroup = ECCC22A91A2CE48D00B4BABB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECCC22A71A2CE48D00B4BABB /* CloudGaming */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECCC22A41A2CE48D00B4BABB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECCC22C11A2CE51700B4BABB /* apis.cpp in Sources */,
+				ECCC22F91A2DCA5900B4BABB /* statistics.cpp in Sources */,
+				ECCC22C61A2CE52200B4BABB /* draw_apis.cpp in Sources */,
+				ECCC22D71A2CE54800B4BABB /* file.cpp in Sources */,
+				ECCC22CC1A2CE52F00B4BABB /* animat.cpp in Sources */,
+				ECCC22D91A2CE54800B4BABB /* mp4write.cpp in Sources */,
+				ECCC22DD1A2CE55100B4BABB /* record.cpp in Sources */,
+				ECCC22EF1A2CE55C00B4BABB /* tcp_streaming.cpp in Sources */,
+				ECCC22EC1A2CE55C00B4BABB /* tcp_media.cpp in Sources */,
+				ECCC22CD1A2CE52F00B4BABB /* pbuffer.cpp in Sources */,
+				ECCC22EA1A2CE55C00B4BABB /* dd_listen.cpp in Sources */,
+				ECCC22F51A2CE57000B4BABB /* PrecisionTimer.cpp in Sources */,
+				ECCC22ED1A2CE55C00B4BABB /* tcp_operations.cpp in Sources */,
+				ECCC22EE1A2CE55C00B4BABB /* tcp_server.cpp in Sources */,
+				ECCC22C71A2CE52200B4BABB /* draw.cpp in Sources */,
+				ECCC22F41A2CE57000B4BABB /* BmpImage.cpp in Sources */,
+				ECCC22DA1A2CE54800B4BABB /* plat.cpp in Sources */,
+				EE310C1C1DA5000F002D828A /* main.cpp in Sources */,
+				ECCC22D81A2CE54800B4BABB /* jpegwrite.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ECCC22AF1A2CE48D00B4BABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ECCC22B01A2CE48D00B4BABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ECCC22B21A2CE48D00B4BABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					../../engine,
+					../../engine/include/mac,
+					../../engine/apis,
+					../../engine/gl_window,
+					../../engine/glx_offscreen,
+					../../engine/plat,
+					../../engine/record,
+					../../engine/statistics,
+					../../engine/tcp,
+					../../engine/texture,
+					/opt/X11/include,
+					/usr/local/Cellar/jpeg/8d/include,
+					/usr/local/include/freetype2,
+					/usr/local/include/libpng,
+					/usr/local/include/libpng15,
+					/usr/local/include/opencv,
+					/usr/local/include/opencv2,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/opt/X11/lib,
+					/usr/local/lib,
+				);
+				OBJROOT = ../build;
+				OTHER_LDFLAGS = (
+					"-lm",
+					"-lz",
+					"-lpthread",
+					"-lfreetype",
+					"-lpng",
+					"-ljpeg",
+					"-framework",
+					OpenGL,
+					"-framework",
+					GLUT,
+					"-lGL",
+					"-lx11",
+					"-lpthread",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = ../build;
+			};
+			name = Debug;
+		};
+		ECCC22B31A2CE48D00B4BABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					../../engine,
+					../../engine/include/mac,
+					../../engine/apis,
+					../../engine/gl_window,
+					../../engine/glx_offscreen,
+					../../engine/plat,
+					../../engine/record,
+					../../engine/statistics,
+					../../engine/tcp,
+					../../engine/texture,
+					/opt/X11/include,
+					/usr/local/Cellar/jpeg/8d/include,
+					/usr/local/include/freetype2,
+					/usr/local/include/libpng,
+					/usr/local/include/libpng15,
+					/usr/local/include/opencv,
+					/usr/local/include/opencv2,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/opt/X11/lib,
+					/usr/local/lib,
+				);
+				OBJROOT = ../build;
+				OTHER_LDFLAGS = (
+					"-lm",
+					"-lz",
+					"-lpthread",
+					"-lfreetype",
+					"-lpng",
+					"-ljpeg",
+					"-framework",
+					OpenGL,
+					"-framework",
+					GLUT,
+					"-lGL",
+					"-lx11",
+					"-lpthread",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = ../build;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECCC22A31A2CE48D00B4BABB /* Build configuration list for PBXProject "CloudGaming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECCC22AF1A2CE48D00B4BABB /* Debug */,
+				ECCC22B01A2CE48D00B4BABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECCC22B11A2CE48D00B4BABB /* Build configuration list for PBXNativeTarget "CloudGaming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECCC22B21A2CE48D00B4BABB /* Debug */,
+				ECCC22B31A2CE48D00B4BABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECCC22A01A2CE48D00B4BABB /* Project object */;
+}
