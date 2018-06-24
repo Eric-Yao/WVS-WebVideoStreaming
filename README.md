@@ -1,15 +1,24 @@
-# WVS: Web Video Streaming Engine
+# WVS: Web Video Streaming
 
-This engine is used to setup a web-based real-time video streaming server. It can be applied to different applications such as web-based cloud gaming, web-based mobile deep learning.
 
-## Project-1 
+## ServerCore
+The core engine is developed from scratch by using C++ language. It is used to setup a web-based real-time video streaming server. It can be applied to different applications such as web-based cloud gaming, web-based mobile deep learning.
+
+#### Project-1 
 
 [Celtic-plus CONVINcE (Consumption OptimizatioN in VIdeo NEtworks)](https://convince.wp.tem-tsp.eu/home/)
 
 The WVS engine is original developed from scratch within the Celtic-plus project CONVINcE. The first demo was developed by integrating with OpentStack, and was shown in the CONVINcE Plenary meeting on 18 January 2017, Lund, Sweden.
 
-## Project-2 
+#### Project-2 
 
 [EASE (Embedded Applications Software Engineering)](http://ease.cs.lth.se/)
 
 The original WVS engine was further developed with the EASE project. The aim is to support mobile-based deep learning by offloading the part of complicated computing from the mobile side to the server side.
+
+## WebClient
+The web-client is developed from scratch by using php language. It is used to connect with the ServerCore, and thus real-time streaming the video/image transmitted from the ServerCore side.
+
+## MobileDL
+The MobileDL is developed by using Java language by integrating with the [DL4j](https://deeplearning4j.org/android) library. The MobileDL is used to do the deep learning process at mobile side. Such process is expected to be conducted in an efficient way with reference to energy consumption.
+
