@@ -20,5 +20,5 @@ The original WVS engine was further developed with the EASE project. The aim is 
 The web-client is developed from scratch by using php language. It is used to connect with the ServerCore, and thus real-time streaming the video/image transmitted from the ServerCore side.
 
 ## MobileDL
-The MobileDL is developed by using Java language by integrating with the [DL4j](https://deeplearning4j.org/android) library. The MobileDL is used to do the deep learning process at mobile side. Such process is expected to be conducted in an efficient way with reference to energy consumption.
+The MobileDL is developed by using Java language and integrating with the [DL4j](https://deeplearning4j.org/android) library. The MobileDL is used to do the deep learning process at mobile side. Such process is expected to be efficiently conducted with reference to the trade-off among energy consumption, computing accuracy and time.
 
