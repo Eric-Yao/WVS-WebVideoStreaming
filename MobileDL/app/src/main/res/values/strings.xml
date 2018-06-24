@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Test5</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_start">Start</string>
+    <string name="button_computing">Computing</string>
+    <string name="edit_iterations">Enter number of iterations (1, 9999) </string>
+    <string name="edit_learning_rate">Enter learning rate (0, 1.0) </string>
+</resources>
