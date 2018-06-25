@@ -8,7 +8,7 @@ The core engine is developed from scratch by using C++ language. It is used to s
 
 [Celtic-plus CONVINcE (Consumption OptimizatioN in VIdeo NEtworks)](https://convince.wp.tem-tsp.eu/home/)
 
-The WVS engine is original developed from scratch within the Celtic-plus project CONVINcE. The first demo was developed by integrating with OpentStack, and was shown in the CONVINcE Plenary meeting on 18 January 2017, Lund, Sweden.
+The WVS engine is original developed from scratch within the Celtic-plus project CONVINcE. The first version of demo was developed by integrating with OpentStack, and was shown in the CONVINcE Plenary meeting on 18 January 2017, Lund, Sweden.
 
 #### Project-2 
 
@@ -20,5 +20,5 @@ The original WVS engine was further developed within the EASE project. The aim i
 The web-client is developed from scratch by using php language. It is used to connect with the ServerCore, and thus real-time streaming the video/image transmitted from the ServerCore side.
 
 ## MobileDL
-The MobileDL is developed by using Java language and integrating with the [DL4j](https://deeplearning4j.org/android) library. The MobileDL is used to do the deep learning process at mobile side. Such process is expected to be efficiently conducted with reference to the trade-off among energy consumption, computing accuracy and time.
+The MobileDL is developed by using Java language and integrating with the [DL4j](https://deeplearning4j.org/android) library. The MobileDL is used to do the deep learning process at the mobile side. Such process is expected to be efficiently conducted with reference to the trade-off among energy consumption, computing accuracy and time.
 
