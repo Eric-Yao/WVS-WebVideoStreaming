@@ -8,7 +8,7 @@ The core engine is developed from scratch by using C++ language. It is used to s
 
 [Celtic-plus CONVINcE (Consumption OptimizatioN in VIdeo NEtworks)](https://convince.wp.tem-tsp.eu/home/)
 
-The WVS engine is original developed from scratch within the Celtic-plus project CONVINcE. The first version of demo was developed by integrating with OpentStack, and was shown in the CONVINcE Plenary meeting on 18 January 2017, Lund, Sweden.
+The WVS engine is original developed from scratch within the Celtic-plus project CONVINcE. The first version of demo was developed by integrating with OpentStack, and was shown in the CONVINcE Plenary meeting on October 2014, Lund, Sweden.
 
 #### Project-2 
 
